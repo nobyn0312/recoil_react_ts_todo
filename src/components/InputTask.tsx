@@ -24,7 +24,7 @@ const InputTask = () => {
 
   return (
   <div>
-    <input type="text" className="inputTitle" onChange={onChange}/>
+    <input type="text" className="inputTitle" onChange={onChange} value={inputTitle}/>
     <button type="button" className="addButton" onClick={handleClick}>追加</button>
   </div>
   )
